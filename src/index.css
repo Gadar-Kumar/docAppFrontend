@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.active hr{
+  @apply block
+}
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+@media (max-width:740px){
+  .active p{
+    @apply text-white bg-blue-500
+  }
+}
+
+/* Global Fix for Overflow
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+} */
+
+/* html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+} */
